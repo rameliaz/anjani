@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tanggapan Atas ANJANI</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="https://rameliaz.github.io/">oleh Rizqy Amelia Zein</a>
+</li>
+<li>
+  <a href="https://github.com/rameliaz/anjani">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Kurasi
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://docs.google.com/spreadsheets/d/114WoULvJx1RTmiL-lQHZ14Mi7FOPErcvJU2wf7TCJCk/edit?usp=sharing">Sumber Primer</a>
+    </li>
+    <li>
+      <a href="https://docs.google.com/spreadsheets/d/1jj9G5HNST4zgN1hh8ojtRUiXmY3vWCAXWfdm9b5CXhk/edit?usp=sharing">Sumber lainnya</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br></br></p>
+<div id="pendahuluan" class="section level2">
+<h2>Pendahuluan</h2>
+<p>Laman ini merupakan kompilasi tanggapan saya atas Panduan <a href="http://anjani.ristekdikti.go.id/">Anjungan Integritas Akademik Indonesia (ANJANI)</a> yang dipersiapkan sebagai partisipasi tidak langsung dalam <strong>Uji Publik Peraturan Menteri tentang Integritas Akademik</strong> yang dilaksanakan pada hari <strong>Selasa, 17 September 2019</strong>.</p>
+<p>Untuk mengakses uraian/anotasi saya atas informasi di laman ANJANI, silahkan klik <b>Tanggapan Atas ANJANI</b> pada <em>menu bar</em> di <strong>sebelah kiri</strong> laman ini, sedangkan untuk mengakses sumber akademik (<em>peer reviewed journal</em>) dan sumber lainnya (opini, kebijakan penerbit, dll.) yang menjadi sumber bacaan saya untuk menyusun tulisan ini, silahkan klik <b>Kurasi</b> pada <em>menu bar</em> di bagian <strong>kanan atas</strong> laman ini.</p>
+<p>Panduan ANJANI atau draf Permen yang lengkap tidak dapat saya temukan, sehingga saya menggunakan laman <a href="http://anjani.ristekdikti.go.id/indikator-dan-spesifikasi-pelanggaran-akademik/">Indikator dan Spesifikasi Pelanggaran Akademik</a> yang tersedia di laman ANJANI sebagai dasar anotasi. <br> </br></p>
+</div>
+<div id="tanggapan-atas-anjani" class="section level2">
+<h2>Tanggapan Atas ANJANI</h2>
+<p>Secara umum, saya mengapresiasi langkah RISTEKDIKTI yang merespon aduan masyarakat mengenai dugaan pelanggaran etika publikasi yang sempat diangkat sebagai pemberitaan oleh media internasional (<a href="https://www.sciencemag.org/news/2019/01/how-shine-indonesian-science-game-system">Science Magazine</a> dan <a href="https://cen.acs.org/policy/publishing/Indonesias-scientists-voice-concerns-countrys/96/web/2018/12">ACS</a>). Dengan adanya inisiatif ANJANI sebagai bagian yang integral dari Peraturan Menteri mengenai Integritas Akademik, maka kementerian memiliki landasan yang jelas untuk melakukan investigasi, asesmen, dan memberikan sanksi terhadap tindakan pelanggaran etika publikasi. Namun ada beberapa yang perlu diperjelas agar perangkat integritas akademik ini dapat berfungsi sesuai dengan peruntukannya, agar tidak sampai menimbulkan <a href="https://www.psychologytoday.com/au/blog/machiavellians-gulling-the-rubes/201610/the-cobra-effect-good-intentions-perverse-outcomes">efek kobra</a>, sehingga peraturan tersebut justru memberi celah untuk ‘diakali’ oleh pihak-pihak yang tidak bertanggungjawab.</p>
+<p>Yang paling fundamental untuk diperjelas dalam perangkat ini adalah konsep soal integritas akademik yang sepertinya dipersempit menjadi integritas dalam proses publikasi penelitian, padahal isu soal integritas menjadi <strong>penting sejak riset mulai direncanakan</strong>. Meskipun Peraturan Menteri mengenai Integritas Akademik (selanjutnya saya sebut Permen saja) sudah mencakup isu mengenai fabrikasi, falsifikasi, dan konflik kepentingan yang melekat pada proses riset, ada banyak celah yang belum tercakup (yang akan saya uraikan dalam bagian selanjutnya).</p>
+<p><em>Concern</em> utama saya pada Permen adalah fokus yang berlebihan pada ‘apa yang tidak boleh’ dan larangan-larangan, namun tidak memberikan fokus yang proporsional pada tindakan pencegahan apa yang diharapkan untuk dilakukan oleh peneliti. Dari perspektif Psikologi, konsep <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1559-1816.2000.tb02323.x"><em>protection-motivation theory</em></a> menyebutkan bahwa <strong>perubahan perilaku</strong> hanya dapat dicapai apabila <strong>ancaman disertai dengan anjuran pencegahan</strong>. Dengan kondisi Permen yang hanya memuat ancaman atas pelanggaran, tanpa ada rekomendasi mengenai tindakan pencegahan (<em>best practices</em>), saya sangat skeptis Permen tersebut dapat membantu peneliti untuk mengadopsi perilaku yang berintegritas. Justru sebaliknya, peneliti akan terus mencari celah untuk <em>gaming the system</em>. Salah satu contoh yang dapat diadopsi adalah pedoman yang dikeluarkan oleh National Science Foundation (NSF) <a href="https://www.nap.edu/catalog/21896/fostering-integrity-in-research"><em>Fostering Integrity in Research</em></a>, dimana dalam panduan tersebut tidak hanya memuat pelanggaran dan jenis-jenisnya, melainkan penekanan yang jelas pada praktik baik yang diharapkan.</p>
+<p>Oleh karena itu, dalam tulisan ini saya akan memberikan <strong>tanggapan dan pertanyaan</strong>, sekaligus <strong>rekomendasi pencegahan</strong> agar dapat dipertimbangkan lebih lanjut. Saya menggunakan Pasal 2 <a href="https://rameliaz.github.io/anjani/sisnas-iptek.pdf">Undang-Undang Nomor 11 tahun 2019</a> tentang Sistem Nasional Ilmu Pengetahuan dan Teknologi (SISNASIPTEK), yaitu <strong>transparansi</strong> dan <strong>aksesibilitas</strong> sebagai filosofi utama dalam menyusun rekomendasi dan tanggapan. Tanggapan disusun menjadi beberapa bagian; (1) uraian mengenai fabrikasi dan falsifikasi; (2) uraian mengenai pengajuan jamak dan repositori; (3) uraian mengenai miskonsepsi atas pracetak; dan ditutup oleh (4) simpulan.</p>
+<p><br> </br></p>
+<div id="fabrikasi-dan-falsifikasi" class="section level3">
+<h3>Fabrikasi dan falsifikasi</h3>
+<p>Aturan yang jelas mengenai fabrikasi dan falsifikasi data sangat penting untuk menjaga kredibilitas temuan penelitian karena malpraktik yang berkaitan dengan manajemen, analisis, dan interpretasi data penelitian lebih marak daripada yang umumnya diperkirakan (<a href="https://doi.org/10.1177/1556264614552421">Tijdink, Verbeke, &amp; Smulders, 2014</a>). Uraian mengenai falsifikasi dan fabrikasi dalam potongan Permen di laman ANJANI sangat generik dan apabila tidak dimitigasi dengan menguraikan praktik baik yang diharapkan, maka aturan ini dapat digunakan untuk menindak segala jenis <em>scientific misconduct</em>, mulai dari yang paling berat, jelas, namun jarang ditemukan (memalsukan data), sampai praktik yang cenderung ringan, masih ‘abu-abu’, namun sangat lazim dilakukan (<em>data massaging/dredging</em>, dsb.).</p>
+<p>Praktik yang cenderung ‘abu-abu’ ini juga disebut sebagai praktik meneliti yang meragukan (PMM – <em>questionable research practices</em>) yang dapat berdampak pada tingginya risiko <em>false positive</em> (<a href="https://doi.org/10.1371/journal.pmed.0020124">Ioannidis, 2005</a>) dan klaim berlebihan dari hasil riset. PMM juga erat kaitannya dengan bias publikasi (<a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470870168#page=15">Dickersin, 2005</a>), yaitu kondisi dimana literatur saintifik penuh sesak dengan temuan penelitian yang dilebih-lebihkan, bahkan distorsi dari fakta yang sebenarnya. Beberapa contohnya diantaranya:</p>
+<ul>
+<li><p><em>p-value hacking</em>/<em>optional stopping</em>, yaitu mencakup keputusan peneliti mengambil data terus menerus sampai memperoleh hasil yang sesuai keinginannya (sigfinikan secara statistik) dan/atau membuang sebagian data (utamanya yang ekstrim/<em>outlier</em>) dari analisis data (<a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106">Head, dkk., 2015</a>).</p></li>
+<li><p><em>Selective reporting</em>/<em>file-drawer effect</em>, yaitu mempublikasikan <strong>sebagian</strong> hasil penelitian, utamanya yang sesuai harapan peneliti saja, sedangkan sebagian lainnya (hasil negatif) tidak dipublikasikan (<a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470870168">Rothstein, Sutton, &amp; Borenstein, 2005</a>).</p></li>
+<li><p><em>Hypothesising after the result are known</em> (HARK-ing), yaitu kondisi dimana peneliti melaporkan bahwa hipotesis yang diuji telah diajukan <strong>sebelum data diambil</strong>, padahal kenyataannya peneliti mencocok-cocokkan berbagai variabel dalam satu dataset dan melaporkan hasil yang sesuai keinginannya saja (<a href="https://doi.org/10.1177/0149206316679487">Hollenbeck &amp; Wright, 2016</a>).</p></li>
+</ul>
+<p>Tindakan pelanggaran ini dapat dihindari dengan:</p>
+<ul>
+<li><p>Mendorong peneliti menyimpan datanya dengan prinsip <em>findable</em> (mudah ditemukan – dengan menggunakan <em>persistent identifier</em> seperti DOI), <em>accessible</em> (mudah ditemukan – diunggah di repositori terbuka), <em>interoperable</em> (mudah dimengerti – dilengkapi dengan metadata sesuai kaidah yang disepakati oleh komunitas akademik di masing-masing disiplin), dan <em>reusable</em> (mudah digunakan kembali – diberikan lisensi yang memungkinkan penggunaan ulang dan dapat dibaca oleh mesin/<em>machine readable</em>) (FAIR) (<a href="https://www.nature.com/articles/sdata201618">Wilkinson, dkk., 2016</a>).</p></li>
+<li><p>Mendorong peneliti untuk menggunakan prinsip <em>version control</em> untuk merekam semua perubahan yang dilakukan, sekaligus sebagai <em>logbook</em> pengelolaan data (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285">Sandve, dkk., 2013</a>).</p></li>
+<li><p>Mendorong peneliti mendaftarkan protokolnya secara terbuka sebelum pengambilan data dan proses analisis data dilakukan. Proses ini lazim disebut sebagai pra-registrasi dan biasanya dilakukan secara terbuka melalui repositori terbuka (<a href="http://www.pnas.org/lookup/doi/10.1073/pnas.1708274114">Nosek, dkk., 2017</a>).</p></li>
+<li><p>Menyarankan kepada pengelola jurnal dan pendonor (termasuk RISTEKDIKTI, sebagai pendonor utama kegiatan riset) untuk mengadopsi <a href="http://www.sciencemag.org/cgi/doi/10.1126/science.aab2374"><em>Transparency and Openness Promotion Guidelines</em></a>, yang menyarankan, bahkan mewajibkan peneliti untuk mendepositkan datanya sebagai komponen pelengkap (<em>supplementary materials</em>) dari artikel yang terpublikasi. <strong>Science</strong> adalah salah satu jurnal <a href="https://www.sciencemag.org/authors/science-journals-editorial-policies">yang sudah mengadopsi TOP</a>.</p></li>
+</ul>
+<p>Oleh karena itu, agar aturan ini tepat sasaran, regulator perlu memastikan bahwa tingkatan pengetahuan mengenai manajemen data penelitian antara dewan etik dan peneliti setara, serta perlu kebijakan yang jelas bagaimana seharusnya data penelitian disimpan dan dikelola (<a href="https://riojournal.com/articles.php?id=28163">Irawan &amp; Rachmi, 2018</a>). Hal ini perlu diperjelas agar <strong>melindungi peneliti</strong> dari tuduhan/risiko terlibat dalam pelanggaran etika akademik.</p>
+<p><br> </br></p>
+</div>
+<div id="pengajuan-jamak-dan-repositori" class="section level3">
+<h3>Pengajuan jamak dan repositori</h3>
+<p>Dalam bagian ini, dijelaskan bahwa naskah yang terhitung sebagai pengajuan jamak apabila ia <strong>terbit di dua jurnal/penerbit yang sama</strong>. Namun komponen ini tidak jelas posisinya apabila naskah yang terpublikasi ditemukan ditemukan kemiripannya dengan <strong>naskah yang tidak dipublikasi</strong> (<em>unpublished manuscript</em>), seperti naskah pracetak, atau laporan tugas akhir (skripsi, tesis, atau disertasi) yang disimpan di repositori yang dapat diakses terbuka.</p>
+<p>Sebelum saya menguraikan tanggapan atas komponen ini, ada beberapa istilah yang perlu diperjelas sejak awal agar menghindari interpretasi ganda.</p>
+<ul>
+<li><p><strong>Preprint</strong> (pracetak), merupakan naskah/karya ilmiah yang <strong>pertama kali</strong> diajukan penulis untuk diproses oleh editor jurnal. Naskah pracetak merupakan naskah yang <strong>belum melalui proses tinjauan sejawat</strong> (<em>peer-review</em>).</p></li>
+<li><p><strong>Postprint</strong> (pasca-cetak), merupakan naskah/karya ilmiah yang <strong>sudah dinyatakan</strong> oleh editor jurnal diterima untuk diterbitkan (<em>accepted for publication</em>), namun belum ditata-letak (<em>layout</em>), atau disunting oleh <em>copyeditor</em>.</p></li>
+<li><p><strong>Publisher’s version</strong> (versi penerbit), merupakan naskah final yang sudah resmi dinyatakan terbit, sudah ditata-letak, disunting oleh <em>copyeditor</em>, dan sudah lengkap bersama komponen penyerta (<em>supplementary materials</em>).</p></li>
+<li><p><strong>Preprint server</strong> (peladen pracetak), merupakan peladen yang menyediakan repositori untuk mengarsipkan naskah pracetak dan pasca-cetak.</p></li>
+</ul>
+<p>Naskah pracetak dan pasca-cetak apabila dapat diakses terbuka maka disebut sebagai <em>green open access</em>, sedangkan naskah versi penerbit yang dapat diakses terbuka disebut sebagai <em>gold open access</em> (<a href="http://dx.doi.org/10.1016/j.acalib.2017.06.004">Zhang &amp; Watson, 2017</a>). Penulis yang tidak mampu membayar <em>article processing charge</em> (APC) harus menandatangani formulir <em>copyright transfer agreement</em> (CTA), sehingga konsekuensinya penulis <strong>tidak bisa bebas membagikan karyanya sendiri</strong>, yaitu naskah versi penerbit. Apabila penulis melakukannya, maka penerbit dapat mengajukan tuntutan hukum atas pelanggaran hak cipta. Hal ini pernah terjadi ketika Elsevier <a href="https://www.theatlantic.com/science/archive/2019/03/uc-elsevier-publisher/583909/">mengancam akan memeja-hijaukan</a> peneliti dari University of California karena mengunggah naskah penelitian miliknya sendiri di ResearchGate.</p>
+<p>Satu-satunya cara untuk <strong>melindungi hak intelektual</strong> dan <strong>kebebasan akademik</strong> yang dimiliki oleh peneliti adalah memberikan perlindungam dalam Permen, agar peneliti yang <strong>mengarsipkan karyanya secara mandiri</strong> dalam bentuk naskah pracetak dan/atau pasca-cetak melalui peladen pracetak, <strong>dikecualikan/tidak dianggap sebagai pengajuan jamak</strong>.</p>
+<p>Hak intelektual dalam naskah pracetak dan pasca-cetak sepenuhnya milik penulis, bukan milik penerbit. Selain itu, sudah cukup banyak jurnal dari penerbit besar membolehkan penulis untuk mengarsipkan karyanya sendiri dalam bentuk naskah pracetak. Kebijakan pengarsipan mandiri yang diterapkan oleh jurnal dapat dicek melalui direktori <a href="http://sherpa.ac.uk/romeo/search.php">SHERPA/RoMEO</a>.</p>
+<p>Sebagai contoh, <strong>Science</strong> yang merupakan salah satu jurnal yang prestisius, justru <a href="https://www.sciencemag.org/authors/science-journals-editorial-policies">menyarankan penulis</a> untuk mengarsipkan naskah yang sedang ditinjau sejawat sebagai naskah pracetak (lihat bagian <em>prior publication and presentations at meetings</em>) di peladen pracetak yang non-profit. Ada banyak keuntungan yang dapat diperoleh penulis ketika mengarsipkan karyanya secara mandiri dalam bentuk naskah pracetak, beberapa diantaranya adalah; meningkatkan visibilitas hasil riset, mengklaim sejak awal sebuah temuan penelitian, mendiseminasikan hasil riset seawal mungkin, memungkinkan peninjauan sejawat yang lebih transparan, dan memudahkan peneliti untuk membangun kolaborasi penelitian dengan peneliti lainnya (<a href="https://doi.org/10.1371/journal.pbio.3000151">Sarabipour, dkk., 2019</a>; <a href="https://jurnal.ugm.ac.id/bip/article/view/17054">Irawan, dkk., 2017</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521583/">Fry, dkk., 2019</a>).</p>
+<p><br> </br></p>
+</div>
+<div id="miskonsepsi-soal-naskah-pracetak" class="section level3">
+<h3>Miskonsepsi soal naskah pracetak</h3>
+<p>Meskipun penting peranannya dalam komunikasi kesarjanaan (<em>scholarly communication</em>), bahkan menjadi kebiasaan/konsensus di komunitas akademik tertentu (misalnya, Fisikawan/Matematikawan menggunggah pracetak di <a href="https://arxiv.org/">arXiv</a>, Biologiwan mengunggah di <a href="https://www.biorxiv.org/">bioRxiv</a>, dan Psikolog di <a href="https://psyarxiv.com">PsyArXiv</a>), ada banyak miskonsepsi/kesalahpahaman yang sering ditemui mengenai naskah pracetak. Berikut ini adalah argumentasi saya atas kesalahpahaman tersebut.</p>
+<ul>
+<li><p>Pracetak bukan karya yang terpublikasi, sehingga tidak dapat dianggap sebagai duplikasi/pengajuan jamak/<em>self-plagiarism</em> <br></br> Meskipun naskah pracetak (dan pasca-cetak) biasanya mendapatkan <em>persistent identifier</em> seperti DOI, tidak ada peran penerbit sama sekali dalam produksi naskah pracetak. Suatu karya yang diterbitkan (oleh penerbit), seharusnya dipajang dalam <em>outlet</em>/terbitan yang memiliki ISSN dan ISBN. Adanya ISSN dan ISBN merupakan <strong>tanda penerbitan</strong>, karena keduanya <strong>hanya diberikan pada terbitan</strong> yang dikeluarkan oleh penerbit, tidak diberikan kepada individu/penulis. Argumentasi ini <a href="https://publicationethics.org/resources/discussion-documents/preprints">diperkuat oleh COPE</a> yang menjelaskan bahwa pracetak tidak termasuk sebagai <em>prior publications</em>, sehingga meskipun naskah sudah diunggah dan dapat diakses terbuka, tetap dapat diproses lebih lanjut untuk peninjauan sejawat.</p></li>
+<li><p>Mengarsipkan naskah pracetak melindungi hak intelektual penulis dari pencurian ide <br></br> Banyak peneliti takut mengarsipkan naskahnya secara mandiri dan terbuka di repositori dengan alasan takut karyanya dicuri. Justru dengan mengarsipkan karyanya secara terbuka dan mendapatkan <strong>stempel digital</strong> seawal mungkin, peneliti dapat <strong>melindungi idenya</strong> dari pencurian yang mungkin dilakukan oleh peneliti lain. Stempel digital yang paling awal justru menjadi <strong>bukti kuat yang sulit dibantah</strong> apabila dua peneliti mengklaim satu ide yang sama sebagai miliknya.</p></li>
+<li><p>Pracetak tidak kredibel karena belum ditinjau <br></br> Naskah pracetak <strong>tidak pernah dimaksudkan</strong> untuk mengganti sama sekali atau memotong kompas sistem peninjauan sejawat. Meskipun ada banyak ketidaksepakatan soal kredibilitas naskah pracetak, umumnya naskah pracetak diterima sebagai referensi yang kredibel dan dapat dikutip dalam karya ilmiah yang lain. National Insitutes of Health (NIH), pendonor riset terkemuka dalam bidang kesehatan, mengijinkan peneliti untuk <a href="https://www.statnews.com/2017/03/31/nih-embrace-preprints/">mengkutip naskah pracetak</a> dalam proposal pengajuan hibah penelitian yang mereka danai. Awal tahun 2019, Center for Open Science mengadakan survei mengenai kredibilitas naskah pracetak yang melibatkan kurang lebih 3000 responden, yang menyatakan bahwa naskah pracetak dapat dikatakan kredibel apabila penulis menyertainya dengan material studi, <em>script</em> analisis, dan data mentah yang dibagikan secara terbuka. Untuk argumentasi yang lebih elaboratif, saya pernah <a href="https://medium.com/open-science-indonesia/fitur-apa-saja-yang-membuat-pre-print-kredibel-a153fd3abd2c">menuliskan hal ini secara lebih lengkap</a> dalam tulisan yang lain. Peladen pracetak juga menerapkan <strong>standar etika publikasi</strong> yang <strong>sama seperti jurnal</strong> konvensional, dimana fabrikasi, falsifikasi, dan plagiarisme (FFP) juga dilarang keras dan berkonsekuensi terjadinya penarikan naskah (contohnya, aturan yang diterapkan <a href="https://asapbio.org/preprint-info">ASAPbio</a>).</p></li>
+<li><p>Pracetak dapat dimodifikasi oleh penulis, namun banyak peladen pracetak menggunakan sistem <em>version control</em> <br></br> Salah satu pertanyaan mengenai kredibilitas naskah pracetak adalah fleksibilitas yang memungkinkan penulis memperbarui naskahnya. Namun setiap perubahan <strong>dapat terlacak secara jelas dan menambah transparansi</strong>, sehingga ketika ada penulis lain yang akan mengutip pracetak, ia harus menuliskan secara jelas versi naskah yang dikutipnya.</p></li>
+</ul>
+<p>Meskipun begitu, ada potensi persoalan yang mungkin muncul terkait dengan naskah pracetak. Berikut inventarisasi persoalan yang mungkin muncul beserta rekomendasinya.</p>
+<ul>
+<li><p>Mengarsipkan naskah pracetak mungkin digerakkan oleh motivasi menambah jumlah artikel yang dapat dikutip <br></br> Meskipun sangat mungkin ada peneliti yang memiliki motivasi tersebut, <strong>peneliti tidak boleh dilarang untuk mengarsipkan karyanya secara mandiri</strong>. Hal ini sebenarnya dapat diantisipasi dengan <strong>tidak memberikan reward apapun</strong> pada peneliti yang mengarsipkan karyanya secara mandiri. Dengan begitu, peneliti akan lebih banyak digerakkan oleh motivasi internal, yaitu agar pemikiran dan karyanya mudah diakses (aksesibilitas) secara terbuka (transparansi). Kedua hal ini dijamin oleh UU SISNASIPTEK.</p></li>
+<li><p>Peneliti merekayasa jumlah sitasi dengan mengunggah naskah pracetak <br></br> Merekayasa jumlah sitasi adalah tuduhan yang harus dibuktikan dengan argumentasi yang kuat. Di laman ANJANI, justru tidak ada aturan yang jelas mengenai rekayasa sitasi, meskipun kasus rekayasa sitasi merupakan salah satu pemicu penting diusulkannya Permen Integritas Akademik. Pun sebenarnya kasus yang lebih jamak terjadi adalah justru adalah perekayaan sitasi pada <strong>naskah yang dipublikasi</strong> (jurnal dan prosiding).</p></li>
+<li><p>Penulis lain justru mengutip naskah pracetak, bukan naskah versi penerbit sehingga jurnal kehilangan sitasi <br></br> Hal ini merupakan kekhawatiran yang beralasan, namun sudah dapat diantisipasi dengan menyertakan pranala (<em>link</em>) naskah versi penerbit dalam metadata naskah pracetak. Sebagian besar peladen pracetak, utamanya <a href="https://arxiv.org/">arXiv</a>, <a href="https://www.biorxiv.org/">bioRxiv</a>, dan semua peladen yang disediakan oleh <a href="https://osf.io/preprints/">Open Science Framework</a> sudah menyediakan kolom isian pranala untuk mengakses naskah yang sudah dipublikasi versi penerbit.</p></li>
+</ul>
+<p><br> </br></p>
+</div>
+<div id="simpulan" class="section level3">
+<h3>Simpulan</h3>
+<p>Dirilisnya Permen ini harus disambut baik sebagai perhatian Kementerian RISTEKDIKTI pada integritas akademik, meskipun ada beberapa hal yang perlu dijernihkan sebelum diimplementasi. Permen ini seharusnya menjadi acuan yang dapat digunakan sebagai pedoman bagi peneliti untuk meningkatkan kualitas penelitiannya. Namun tujuan ini sulit tercapai apabila Permen ini <strong>hanya berisi larangan-larangan</strong>, <strong>tanpa rekomendasi praktik baik</strong>, sehingga sulit diharapkan untuk mengubah perilaku/praktik meneliti/mempublikasikan hasil penelitiannya. Permen ini juga sebaiknya <strong>melindungi kebebasan dan hak intelektual peneliti</strong>, dengan menjamin kebebasan dan keleluasaan peneliti untuk <strong>mengarsipkan secara mandiri, membagikan, dan mendiseminasikan</strong> hasil pemikirannya secara terbuka (sesuai mandat UU SISNASIPTEK).</p>
+<p>Beberapa hal lain yang belum jelas dari Permen Integritas Akademik meliputi:</p>
+<ol style="list-style-type: decimal">
+<li><p>Bagaimana posisi Permen bila disejajarkan dengan Komisi Etik Penelitian (KEP – <em>Institutional Review Board</em>) di institusi yang <strong>sudah memiliki KEP</strong>? Apakah Permen posisinya komplementer atau substitusi dari KEP?</p></li>
+<li><p>Kemudian bagaimana dengan institusi perguruan tinggi yang <strong>belum punya</strong> kebijakan mengenai kode etik penelitian/KEP? Apakah Permen dimaksudkan untuk menambal kebutuhan ini?</p></li>
+<li><p>Apakah Permen mengatur sistem telaah kelayakan etik pada protokol penelitian (sebelum penelitian dilakukan), terutama pada rencana manajemen data penelitian (untuk mencegah terjadinya fabrikasi dan falsifikasi data)? Kalau tidak, bukankah tindakan yang terbaik adalah tindakan pencegahan (sebelum riset dimulai)?</p></li>
+<li><p>Adakah panduan/pemahaman yang memadai soal praktik baik meneliti? Atau segala hal yang tidak bertentangan dengan Permen, maka tindakan tersebut dibenarkan secara etika?</p></li>
+<li><p>Adakah dan bagaimana mekanisme/proses banding bagi terduga pelanggar etika penelitian/publikasi?</p></li>
+<li><p>Bagaimana mekanisme pelaporannya? Apakah ada perlindungan/jaminan anonimitas bagi <em>whistleblower</em>, utamanya bagi pelapor yang melaporkan dugaan pelanggaran etika yang dilakukan oleh seseorang yang relasi kuasanya timpang (misalnya, mahasiswa, asisten peneliti, dll. yang melaporkan dosen/peneliti senior)?</p></li>
+<li><p>Apabila Permen bertentangan dengan kebijakan KEP dan kebijakan etika publikasi yang ditetapkan oleh jurnal, maka peraturan manakah yang harus diikuti oleh dan mengikat bagi peneliti?</p></li>
+<li><p>Bagaimana dengan rekayasa sitasi? Apakah Permen juga sudah mencakup pelanggaran etika yang berkaitan dengan penyalahgunaan kekuasaan (misalnya dosen memaksa mahasiswanya mengutip karya tulisnya, editor/mitra bestari yang memaksa penulis untuk mengutip karya tulis pribadinya/artikel lain yang diterbitkan di jurnalnya)?</p></li>
+</ol>
+<p><br> </br></p>
+</div>
+</div>
+<div id="lisensi" class="section level2">
+<h2>Lisensi</h2>
+<p>Semua materi dalam laman ini berlisensi <a href="https://creativecommons.org/licenses/by-sa/1.0/"><i class="fab fa-creative-commons"></i> BY-SA 1.0</a> (<em>public domain</em>), kecuali artikel jurnal dan esai yang lisensinya dimiliki oleh penerbit tertentu.</p>
+<p><br> </br></p>
+</div>
+<div id="profil-penulis" class="section level2">
+<h2>Profil penulis</h2>
+<p>Penulis adalah <a href="https://psikologi.unair.ac.id/en_US/dosen-rizqy-amelia-zein/">dosen</a> di Departemen Psikologi Kepribadian dan Sosial, Fakultas Psikologi Universitas Airlangga, anggota <a href="https://sainsterbukaua.github.io/">Komunitas Sains Terbuka Airlangga</a>, dan <em>researcher-in-training</em> di <a href="https://igdore.org/researchers/">Institute for Globally Open Research and Education (IGDORE)</a>. Profil lengkapnya dapat diakses melalui <a href="https://rameliaz.github.io/">situs pribadinya</a>.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

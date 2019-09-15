@@ -1,0 +1,144 @@
+<br></br>
+
+## Pendahuluan 
+
+Laman ini merupakan kompilasi tanggapan saya atas Panduan [Anjungan Integritas Akademik Indonesia (ANJANI)](http://anjani.ristekdikti.go.id/) yang dipersiapkan sebagai partisipasi tidak langsung dalam **Uji Publik Peraturan Menteri tentang Integritas Akademik** yang dilaksanakan pada hari **Selasa, 17 September 2019**.
+
+Untuk mengakses uraian/anotasi saya atas informasi di laman ANJANI, silahkan klik <b>Tanggapan Atas ANJANI</b> pada *menu bar* di **sebelah kiri** laman ini, sedangkan untuk mengakses sumber akademik (*peer reviewed journal*) dan sumber lainnya (opini, kebijakan penerbit, dll.) yang menjadi sumber bacaan saya untuk menyusun tulisan ini, silahkan klik <b>Kurasi</b> pada *menu bar* di bagian **kanan atas** laman ini.
+
+Panduan ANJANI atau draf Permen yang lengkap tidak dapat saya temukan, sehingga saya menggunakan laman [Indikator dan Spesifikasi Pelanggaran Akademik](http://anjani.ristekdikti.go.id/indikator-dan-spesifikasi-pelanggaran-akademik/) yang tersedia di laman ANJANI sebagai dasar anotasi. <br>
+</br>
+
+
+## Tanggapan Atas ANJANI
+
+Secara umum, saya mengapresiasi langkah RISTEKDIKTI yang merespon aduan masyarakat mengenai dugaan pelanggaran etika publikasi yang sempat diangkat sebagai pemberitaan oleh media internasional ([Science Magazine](https://www.sciencemag.org/news/2019/01/how-shine-indonesian-science-game-system) dan [ACS](https://cen.acs.org/policy/publishing/Indonesias-scientists-voice-concerns-countrys/96/web/2018/12)). Dengan adanya inisiatif ANJANI sebagai bagian yang integral dari Peraturan Menteri mengenai Integritas Akademik, maka kementerian memiliki landasan yang jelas untuk melakukan investigasi, asesmen, dan memberikan sanksi terhadap tindakan pelanggaran etika publikasi. Namun ada beberapa yang perlu diperjelas agar perangkat integritas akademik ini dapat berfungsi sesuai dengan peruntukannya, agar tidak sampai menimbulkan [efek kobra](https://www.psychologytoday.com/au/blog/machiavellians-gulling-the-rubes/201610/the-cobra-effect-good-intentions-perverse-outcomes), sehingga peraturan tersebut justru memberi celah untuk 'diakali' oleh pihak-pihak yang tidak bertanggungjawab.
+
+Yang paling fundamental untuk diperjelas dalam perangkat ini adalah konsep soal integritas akademik yang sepertinya dipersempit menjadi integritas dalam proses publikasi penelitian, padahal isu soal integritas menjadi **penting sejak riset mulai direncanakan**. Meskipun Peraturan Menteri mengenai Integritas Akademik (selanjutnya saya sebut Permen saja) sudah mencakup isu mengenai fabrikasi, falsifikasi, dan konflik kepentingan yang melekat pada proses riset, ada banyak celah yang belum tercakup (yang akan saya uraikan dalam bagian selanjutnya). 
+
+*Concern* utama saya pada Permen adalah fokus yang berlebihan pada 'apa yang tidak boleh' dan larangan-larangan, namun tidak memberikan fokus yang proporsional pada tindakan pencegahan apa yang diharapkan untuk dilakukan oleh peneliti. Dari perspektif Psikologi, konsep [*protection-motivation theory*](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1559-1816.2000.tb02323.x) menyebutkan bahwa **perubahan perilaku** hanya dapat dicapai apabila **ancaman disertai dengan anjuran pencegahan**. Dengan kondisi Permen yang hanya memuat ancaman atas pelanggaran, tanpa ada rekomendasi mengenai tindakan pencegahan (*best practices*), saya sangat skeptis Permen tersebut dapat membantu peneliti untuk mengadopsi perilaku yang berintegritas. Justru sebaliknya, peneliti akan terus mencari celah untuk *gaming the system*. Salah satu contoh yang dapat diadopsi adalah pedoman yang dikeluarkan oleh National Science Foundation (NSF) [*Fostering Integrity in Research*](https://www.nap.edu/catalog/21896/fostering-integrity-in-research), dimana dalam panduan tersebut tidak hanya memuat pelanggaran dan jenis-jenisnya, melainkan penekanan yang jelas pada praktik baik yang diharapkan.
+
+Oleh karena itu, dalam tulisan ini saya akan memberikan **tanggapan dan pertanyaan**, sekaligus **rekomendasi pencegahan** agar dapat dipertimbangkan lebih lanjut. Saya menggunakan Pasal 2 [Undang-Undang Nomor 11 tahun 2019](https://rameliaz.github.io/anjani/sisnas-iptek.pdf) tentang Sistem Nasional Ilmu Pengetahuan dan Teknologi (SISNASIPTEK), yaitu **transparansi** dan **aksesibilitas** sebagai filosofi utama dalam menyusun rekomendasi dan tanggapan. Tanggapan disusun menjadi beberapa bagian; (1) uraian mengenai fabrikasi dan falsifikasi; (2) uraian mengenai pengajuan jamak dan repositori; (3) uraian mengenai miskonsepsi atas pracetak; dan ditutup oleh (4) simpulan.
+
+<br>
+</br>
+
+### Fabrikasi dan falsifikasi
+
+Aturan yang jelas mengenai fabrikasi dan falsifikasi data sangat penting untuk menjaga kredibilitas temuan penelitian karena malpraktik yang berkaitan dengan manajemen, analisis, dan interpretasi data penelitian lebih marak daripada yang umumnya diperkirakan ([Tijdink, Verbeke, & Smulders, 2014](https://doi.org/10.1177/1556264614552421)). Uraian mengenai falsifikasi dan fabrikasi dalam potongan Permen di laman ANJANI sangat generik dan apabila tidak dimitigasi dengan menguraikan praktik baik yang diharapkan, maka aturan ini dapat digunakan untuk menindak segala jenis *scientific misconduct*, mulai dari yang paling berat, jelas, namun jarang ditemukan (memalsukan data), sampai praktik yang cenderung ringan, masih 'abu-abu', namun sangat lazim dilakukan (*data massaging/dredging*, dsb.).
+
+Praktik yang cenderung 'abu-abu' ini juga disebut sebagai praktik meneliti yang meragukan (PMM -- *questionable research practices*) yang dapat berdampak pada tingginya risiko *false positive* ([Ioannidis, 2005](https://doi.org/10.1371/journal.pmed.0020124)) dan klaim berlebihan dari hasil riset. PMM juga erat kaitannya dengan bias publikasi ([Dickersin, 2005](https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470870168#page=15)), yaitu kondisi dimana literatur saintifik penuh sesak dengan temuan penelitian yang dilebih-lebihkan, bahkan distorsi dari fakta yang sebenarnya. Beberapa contohnya diantaranya:
+
+* *p-value hacking*/*optional stopping*, yaitu mencakup keputusan peneliti mengambil data terus menerus sampai memperoleh hasil yang sesuai keinginannya (sigfinikan secara statistik) dan/atau membuang sebagian data (utamanya yang ekstrim/*outlier*) dari analisis data ([Head, dkk., 2015](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106)).
+
+* *Selective reporting*/*file-drawer effect*, yaitu mempublikasikan **sebagian** hasil penelitian, utamanya yang sesuai harapan peneliti saja, sedangkan sebagian lainnya (hasil negatif) tidak dipublikasikan ([Rothstein, Sutton, & Borenstein, 2005](https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470870168)). 
+
+* *Hypothesising after the result are known* (HARK-ing), yaitu kondisi dimana peneliti melaporkan bahwa hipotesis yang diuji telah diajukan **sebelum data diambil**, padahal kenyataannya peneliti mencocok-cocokkan berbagai variabel dalam satu dataset dan melaporkan hasil yang sesuai keinginannya saja ([Hollenbeck & Wright, 2016](https://doi.org/10.1177/0149206316679487)).
+
+Tindakan pelanggaran ini dapat dihindari dengan:
+
+* Mendorong peneliti menyimpan datanya dengan prinsip *findable* (mudah ditemukan -- dengan menggunakan *persistent identifier* seperti DOI), *accessible* (mudah ditemukan -- diunggah di repositori terbuka), *interoperable* (mudah dimengerti -- dilengkapi dengan metadata sesuai kaidah yang disepakati oleh komunitas akademik di masing-masing disiplin), dan *reusable* (mudah digunakan kembali -- diberikan lisensi yang memungkinkan penggunaan ulang dan dapat dibaca oleh mesin/*machine readable*) (FAIR) ([Wilkinson, dkk., 2016](https://www.nature.com/articles/sdata201618)).
+
+* Mendorong peneliti untuk menggunakan prinsip *version control* untuk merekam semua perubahan yang dilakukan, sekaligus sebagai *logbook* pengelolaan data ([Sandve, dkk., 2013](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)).
+
+* Mendorong peneliti mendaftarkan protokolnya secara terbuka sebelum pengambilan data dan proses analisis data dilakukan. Proses ini lazim disebut sebagai pra-registrasi dan biasanya dilakukan secara terbuka melalui repositori terbuka ([Nosek, dkk., 2017](http://www.pnas.org/lookup/doi/10.1073/pnas.1708274114)).
+
+* Menyarankan kepada pengelola jurnal dan pendonor (termasuk RISTEKDIKTI, sebagai pendonor utama kegiatan riset) untuk mengadopsi [*Transparency and Openness Promotion Guidelines*](http://www.sciencemag.org/cgi/doi/10.1126/science.aab2374), yang menyarankan, bahkan mewajibkan peneliti untuk mendepositkan datanya sebagai komponen pelengkap (*supplementary materials*) dari artikel yang terpublikasi. **Science** adalah salah satu jurnal [yang sudah mengadopsi TOP](https://www.sciencemag.org/authors/science-journals-editorial-policies).
+
+Oleh karena itu, agar aturan ini tepat sasaran, regulator perlu memastikan bahwa tingkatan pengetahuan mengenai manajemen data penelitian antara dewan etik dan peneliti setara, serta perlu kebijakan yang jelas bagaimana seharusnya data penelitian disimpan dan dikelola ([Irawan & Rachmi, 2018](https://riojournal.com/articles.php?id=28163)). Hal ini perlu diperjelas agar **melindungi peneliti** dari tuduhan/risiko terlibat dalam pelanggaran etika akademik.
+
+<br>
+</br>
+
+### Pengajuan jamak dan repositori
+
+Dalam bagian ini, dijelaskan bahwa naskah yang terhitung sebagai pengajuan jamak apabila ia **terbit di dua jurnal/penerbit yang sama**. Namun komponen ini tidak jelas posisinya apabila naskah yang terpublikasi ditemukan ditemukan kemiripannya dengan **naskah yang tidak dipublikasi** (*unpublished manuscript*), seperti naskah pracetak, atau laporan tugas akhir (skripsi, tesis, atau disertasi) yang disimpan di repositori yang dapat diakses terbuka.
+
+Sebelum saya menguraikan tanggapan atas komponen ini, ada beberapa istilah yang perlu diperjelas sejak awal agar menghindari interpretasi ganda.
+
+* **Preprint** (pracetak), merupakan naskah/karya ilmiah yang **pertama kali** diajukan penulis untuk diproses oleh editor jurnal. Naskah pracetak merupakan naskah yang **belum melalui proses tinjauan sejawat** (*peer-review*).
+
+* **Postprint** (pasca-cetak), merupakan naskah/karya ilmiah yang **sudah dinyatakan** oleh editor jurnal diterima untuk diterbitkan (*accepted for publication*), namun belum ditata-letak (*layout*), atau disunting oleh *copyeditor*.
+
+* **Publisher's version** (versi penerbit), merupakan naskah final yang sudah resmi dinyatakan terbit, sudah ditata-letak, disunting oleh *copyeditor*, dan sudah lengkap bersama komponen penyerta (*supplementary materials*).
+
+* **Preprint server** (peladen pracetak), merupakan peladen yang menyediakan repositori untuk mengarsipkan naskah pracetak dan pasca-cetak.
+
+Naskah pracetak dan pasca-cetak apabila dapat diakses terbuka maka disebut sebagai *green open access*, sedangkan naskah versi penerbit yang dapat diakses terbuka disebut sebagai *gold open access* ([Zhang & Watson, 2017](http://dx.doi.org/10.1016/j.acalib.2017.06.004)). Penulis yang tidak mampu membayar *article processing charge* (APC) harus menandatangani formulir *copyright transfer agreement* (CTA), sehingga konsekuensinya penulis **tidak bisa bebas membagikan karyanya sendiri**, yaitu naskah versi penerbit. Apabila penulis melakukannya, maka penerbit dapat mengajukan tuntutan hukum atas pelanggaran hak cipta. Hal ini pernah terjadi ketika Elsevier [mengancam akan memeja-hijaukan](https://www.theatlantic.com/science/archive/2019/03/uc-elsevier-publisher/583909/) peneliti dari University of California karena mengunggah naskah penelitian miliknya sendiri di ResearchGate. 
+
+Satu-satunya cara untuk **melindungi hak intelektual** dan **kebebasan akademik** yang dimiliki oleh peneliti adalah memberikan perlindungam dalam Permen, agar peneliti yang **mengarsipkan karyanya secara mandiri** dalam bentuk naskah pracetak dan/atau pasca-cetak melalui peladen pracetak, **dikecualikan/tidak dianggap sebagai pengajuan jamak**. 
+
+Hak intelektual dalam naskah pracetak dan pasca-cetak sepenuhnya milik penulis, bukan milik penerbit. Selain itu, sudah cukup banyak jurnal dari penerbit besar membolehkan penulis untuk mengarsipkan karyanya sendiri dalam bentuk naskah pracetak. Kebijakan pengarsipan mandiri yang diterapkan oleh jurnal dapat dicek melalui direktori [SHERPA/RoMEO](http://sherpa.ac.uk/romeo/search.php).
+
+Sebagai contoh, **Science** yang merupakan salah satu jurnal yang prestisius, justru [menyarankan penulis](https://www.sciencemag.org/authors/science-journals-editorial-policies) untuk mengarsipkan naskah yang sedang ditinjau sejawat sebagai naskah pracetak (lihat bagian *prior publication and presentations at meetings*) di peladen pracetak yang non-profit. Ada banyak keuntungan yang dapat diperoleh penulis ketika mengarsipkan karyanya secara mandiri dalam bentuk naskah pracetak, beberapa diantaranya adalah; meningkatkan visibilitas hasil riset, mengklaim sejak awal sebuah temuan penelitian, mendiseminasikan hasil riset seawal mungkin, memungkinkan peninjauan sejawat yang lebih transparan, dan memudahkan peneliti untuk membangun kolaborasi penelitian dengan peneliti lainnya ([Sarabipour, dkk., 2019](https://doi.org/10.1371/journal.pbio.3000151); [Irawan, dkk., 2017](https://jurnal.ugm.ac.id/bip/article/view/17054); [Fry, dkk., 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521583/)).
+
+<br>
+</br>
+
+### Miskonsepsi soal naskah pracetak
+
+Meskipun penting peranannya dalam komunikasi kesarjanaan (*scholarly communication*), bahkan menjadi kebiasaan/konsensus di komunitas akademik tertentu (misalnya, Fisikawan/Matematikawan menggunggah pracetak di [arXiv](https://arxiv.org/), Biologiwan mengunggah di [bioRxiv](https://www.biorxiv.org/), dan Psikolog di [PsyArXiv](https://psyarxiv.com)), ada banyak miskonsepsi/kesalahpahaman yang sering ditemui mengenai naskah pracetak. Berikut ini adalah argumentasi saya atas kesalahpahaman tersebut.
+
+* Pracetak bukan karya yang terpublikasi, sehingga tidak dapat dianggap sebagai duplikasi/pengajuan jamak/*self-plagiarism* <br></br>
+Meskipun naskah pracetak (dan pasca-cetak) biasanya mendapatkan *persistent identifier* seperti DOI, tidak ada peran penerbit sama sekali dalam produksi naskah pracetak. Suatu karya yang diterbitkan (oleh penerbit), seharusnya dipajang dalam *outlet*/terbitan yang memiliki ISSN dan ISBN. Adanya ISSN dan ISBN merupakan **tanda penerbitan**, karena keduanya **hanya diberikan pada terbitan** yang dikeluarkan oleh penerbit, tidak diberikan kepada individu/penulis. Argumentasi ini [diperkuat oleh COPE](https://publicationethics.org/resources/discussion-documents/preprints) yang menjelaskan bahwa pracetak tidak termasuk sebagai *prior publications*, sehingga meskipun naskah sudah diunggah dan dapat diakses terbuka, tetap dapat diproses lebih lanjut untuk peninjauan sejawat.
+
+* Mengarsipkan naskah pracetak melindungi hak intelektual penulis dari pencurian ide <br></br>
+Banyak peneliti takut mengarsipkan naskahnya secara mandiri dan terbuka di repositori dengan alasan takut karyanya dicuri. Justru dengan mengarsipkan karyanya secara terbuka dan mendapatkan **stempel digital** seawal mungkin, peneliti dapat **melindungi idenya** dari pencurian yang mungkin dilakukan oleh peneliti lain. Stempel digital yang paling awal justru menjadi **bukti kuat yang sulit dibantah** apabila dua peneliti mengklaim satu ide yang sama sebagai miliknya. 
+
+* Pracetak tidak kredibel karena belum ditinjau <br></br>
+Naskah pracetak **tidak pernah dimaksudkan** untuk mengganti sama sekali atau memotong kompas sistem peninjauan sejawat. Meskipun ada banyak ketidaksepakatan soal kredibilitas naskah pracetak, umumnya naskah pracetak diterima sebagai referensi yang kredibel dan dapat dikutip dalam karya ilmiah yang lain. National Insitutes of Health (NIH), pendonor riset terkemuka dalam bidang kesehatan, mengijinkan peneliti untuk [mengkutip naskah pracetak](https://www.statnews.com/2017/03/31/nih-embrace-preprints/) dalam proposal pengajuan hibah penelitian yang mereka danai. Awal tahun 2019, Center for Open Science mengadakan survei mengenai kredibilitas naskah pracetak yang melibatkan kurang lebih 3000 responden, yang menyatakan bahwa naskah pracetak dapat dikatakan kredibel apabila penulis menyertainya dengan material studi, *script* analisis, dan data mentah yang dibagikan secara terbuka. Untuk argumentasi yang lebih elaboratif, saya pernah [menuliskan hal ini secara lebih lengkap](https://medium.com/open-science-indonesia/fitur-apa-saja-yang-membuat-pre-print-kredibel-a153fd3abd2c) dalam tulisan yang lain. Peladen pracetak juga menerapkan **standar etika publikasi** yang **sama seperti jurnal** konvensional, dimana fabrikasi, falsifikasi, dan plagiarisme (FFP) juga dilarang keras dan berkonsekuensi terjadinya penarikan naskah (contohnya, aturan yang diterapkan [ASAPbio](https://asapbio.org/preprint-info)). 
+
+* Pracetak dapat dimodifikasi oleh penulis, namun banyak peladen pracetak menggunakan sistem *version control* <br></br>
+Salah satu pertanyaan mengenai kredibilitas naskah pracetak adalah fleksibilitas yang memungkinkan penulis memperbarui naskahnya. Namun setiap perubahan **dapat terlacak secara jelas dan menambah transparansi**, sehingga ketika ada penulis lain yang akan mengutip pracetak, ia harus menuliskan secara jelas versi naskah yang dikutipnya.
+
+
+Meskipun begitu, ada potensi persoalan yang mungkin muncul terkait dengan naskah pracetak. Berikut inventarisasi persoalan yang mungkin muncul beserta rekomendasinya.
+
+* Mengarsipkan naskah pracetak mungkin digerakkan oleh motivasi menambah jumlah artikel yang dapat dikutip <br></br>
+Meskipun sangat mungkin ada peneliti yang memiliki motivasi tersebut, **peneliti tidak boleh dilarang untuk mengarsipkan karyanya secara mandiri**. Hal ini sebenarnya dapat diantisipasi dengan **tidak memberikan reward apapun** pada peneliti yang mengarsipkan karyanya secara mandiri. Dengan begitu, peneliti akan lebih banyak digerakkan oleh motivasi internal, yaitu agar pemikiran dan karyanya mudah diakses (aksesibilitas) secara terbuka (transparansi). Kedua hal ini dijamin oleh UU SISNASIPTEK.
+
+* Peneliti merekayasa jumlah sitasi dengan mengunggah naskah pracetak <br></br>
+Merekayasa jumlah sitasi adalah tuduhan yang harus dibuktikan dengan argumentasi yang kuat. Di laman ANJANI, justru tidak ada aturan yang jelas mengenai rekayasa sitasi, meskipun kasus rekayasa sitasi merupakan salah satu pemicu penting diusulkannya Permen Integritas Akademik. Pun sebenarnya kasus yang lebih jamak terjadi adalah justru adalah perekayaan sitasi pada **naskah yang dipublikasi** (jurnal dan prosiding).
+
+
+* Penulis lain justru mengutip naskah pracetak, bukan naskah versi penerbit sehingga jurnal kehilangan sitasi <br></br>
+Hal ini merupakan kekhawatiran yang beralasan, namun sudah dapat diantisipasi dengan menyertakan pranala (*link*) naskah versi penerbit dalam metadata naskah pracetak. Sebagian besar peladen pracetak, utamanya [arXiv](https://arxiv.org/), [bioRxiv](https://www.biorxiv.org/), dan semua peladen yang disediakan oleh [Open Science Framework](https://osf.io/preprints/) sudah menyediakan kolom isian pranala untuk mengakses naskah yang sudah dipublikasi versi penerbit.
+
+<br>
+</br>
+
+### Simpulan
+
+Dirilisnya Permen ini harus disambut baik sebagai perhatian Kementerian RISTEKDIKTI pada integritas akademik, meskipun ada beberapa hal yang perlu dijernihkan sebelum diimplementasi. Permen ini seharusnya menjadi acuan yang dapat digunakan sebagai pedoman bagi peneliti untuk meningkatkan kualitas penelitiannya. Namun tujuan ini sulit tercapai apabila Permen ini **hanya berisi larangan-larangan**, **tanpa rekomendasi praktik baik**, sehingga sulit diharapkan untuk mengubah perilaku/praktik meneliti/mempublikasikan hasil penelitiannya. Permen ini juga sebaiknya **melindungi kebebasan dan hak intelektual peneliti**, dengan menjamin kebebasan dan keleluasaan peneliti untuk **mengarsipkan secara mandiri, membagikan, dan mendiseminasikan** hasil pemikirannya secara terbuka (sesuai mandat UU SISNASIPTEK).
+
+Beberapa hal lain yang belum jelas dari Permen Integritas Akademik meliputi:
+
+1. Bagaimana posisi Permen bila disejajarkan dengan Komisi Etik Penelitian (KEP -- *Institutional Review Board*) di institusi yang **sudah memiliki KEP**? Apakah Permen posisinya komplementer atau substitusi dari KEP? 
+
+2. Kemudian bagaimana dengan institusi perguruan tinggi yang **belum punya** kebijakan mengenai kode etik penelitian/KEP? Apakah Permen dimaksudkan untuk menambal kebutuhan ini?
+
+3. Apakah Permen mengatur sistem telaah kelayakan etik pada protokol penelitian (sebelum penelitian dilakukan), terutama pada rencana manajemen data penelitian (untuk mencegah terjadinya fabrikasi dan falsifikasi data)? Kalau tidak, bukankah tindakan yang terbaik adalah tindakan pencegahan (sebelum riset dimulai)?
+
+4. Adakah panduan/pemahaman yang memadai soal praktik baik meneliti? Atau segala hal yang tidak bertentangan dengan Permen, maka tindakan tersebut dibenarkan secara etika? 
+
+5. Adakah dan bagaimana mekanisme/proses banding bagi terduga pelanggar etika penelitian/publikasi?
+
+6. Bagaimana mekanisme pelaporannya? Apakah ada perlindungan/jaminan anonimitas bagi *whistleblower*, utamanya bagi pelapor yang melaporkan dugaan pelanggaran etika yang dilakukan oleh seseorang yang relasi kuasanya timpang (misalnya, mahasiswa, asisten peneliti, dll. yang melaporkan dosen/peneliti senior)?
+
+7. Apabila Permen bertentangan dengan kebijakan KEP dan kebijakan etika publikasi yang ditetapkan oleh jurnal, maka peraturan manakah yang harus diikuti oleh dan mengikat bagi peneliti?
+
+8. Bagaimana dengan rekayasa sitasi? Apakah Permen juga sudah mencakup pelanggaran etika yang berkaitan dengan penyalahgunaan kekuasaan (misalnya dosen memaksa mahasiswanya mengutip karya tulisnya, editor/mitra bestari yang memaksa penulis untuk mengutip karya tulis pribadinya/artikel lain yang diterbitkan di jurnalnya)?
+
+<br>
+</br>
+
+## Lisensi
+
+Semua materi dalam laman ini berlisensi [<i class="fab fa-creative-commons"></i> BY-SA 1.0](https://creativecommons.org/licenses/by-sa/1.0/) (*public domain*), kecuali artikel jurnal dan esai yang lisensinya dimiliki oleh penerbit tertentu.
+
+<br>
+</br>
+
+## Profil penulis
+
+Penulis adalah [dosen](https://psikologi.unair.ac.id/en_US/dosen-rizqy-amelia-zein/) di Departemen Psikologi Kepribadian dan Sosial, Fakultas Psikologi Universitas Airlangga, anggota [Komunitas Sains Terbuka Airlangga](https://sainsterbukaua.github.io/), dan *researcher-in-training* di [Institute for Globally Open Research and Education (IGDORE)](https://igdore.org/researchers/). Profil lengkapnya dapat diakses melalui [situs pribadinya](https://rameliaz.github.io/).

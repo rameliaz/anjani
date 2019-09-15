@@ -1,0 +1,27 @@
+name: "tanggapan-anjani"
+author: "Rizqy Amelia Zein"
+output_dir: "docs"
+exclude: ["*.xls", "*.csv","*.R","/slides","*.pptx","*.jpg"]
+navbar:
+  title: "Tanggapan Atas ANJANI"
+  left:
+    - text: "oleh Rizqy Amelia Zein"
+      href: https://rameliaz.github.io/
+    - icon: fa-github fa-lg
+      href: https://github.com/rameliaz/anjani
+  right:
+  - text: "Kurasi"  
+    menu: 
+    - text: "Sumber Primer"
+      href: https://docs.google.com/spreadsheets/d/114WoULvJx1RTmiL-lQHZ14Mi7FOPErcvJU2wf7TCJCk/edit?usp=sharing
+    - text: "Sumber lainnya"
+      href: https://docs.google.com/spreadsheets/d/1jj9G5HNST4zgN1hh8ojtRUiXmY3vWCAXWfdm9b5CXhk/edit?usp=sharing
+    
+output:
+  html_document:
+    toc: true
+    toc_float: yes
+    toc_depth: 3
+    df_print: paged
+    theme: flatly
+    highlight: tango
